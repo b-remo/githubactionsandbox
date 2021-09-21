@@ -3,6 +3,8 @@
 name: CI
 
 on:
+  repository_dispatch:
+    types: do-something
   schedule:
     - cron:  '*/5 * * * *'
 
