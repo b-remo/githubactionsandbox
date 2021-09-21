@@ -5,8 +5,6 @@ name: CI
 on:
   repository_dispatch:
     types: do-something
-  schedule:
-    - cron:  '*/5 * * * *'
 
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
